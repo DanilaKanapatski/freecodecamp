@@ -67,6 +67,9 @@
 // const character = "Hello";
 // const count = 8;
 // const rows = [];
-const character = "#";
-const count = 8;
-const rows = [];
+// const character = "#";
+// const count = 8;
+// const rows = [];
+for ("iterator"; "condition"; "iteration") {
+
+}
