@@ -30,8 +30,9 @@
 // secondCharacter = character;
 // console.log(character)
 // let character = 'Hello';
+// let character = "Hello";
+// let profession = 'teacher';
+// let age;
+// console.log(profession);
+// console.log(age);
 let character = "Hello";
-let profession = 'teacher';
-let age;
-console.log(profession);
-console.log(age);
