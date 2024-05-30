@@ -107,6 +107,9 @@
 //     rows.push(character.repeat(i));
 //     console.log(rows)
 //   }
-for (let i = 0; i < count; i = i + 1) {
-    rows.push(character.repeat(i+1))
-  }
+// for (let i = 0; i < count; i = i + 1) {
+//     rows.push(character.repeat(i+1))
+//   }
+function padRow() {
+  
+}
