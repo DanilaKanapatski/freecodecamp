@@ -70,6 +70,9 @@
 // const character = "#";
 // const count = 8;
 // const rows = [];
-for ("iterator"; "condition"; "iteration") {
+// for ("iterator"; "condition"; "iteration") {
+
+// }
+for (let i = 0; "condition"; "iteration") {
 
 }
