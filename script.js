@@ -73,6 +73,9 @@
 // for ("iterator"; "condition"; "iteration") {
 
 // }
-for (let i = 0; "condition"; "iteration") {
+// for (let i = 0; "condition"; "iteration") {
+
+// }
+for (let i = 0; i < count; "iteration") {
 
 }
