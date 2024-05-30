@@ -15,8 +15,14 @@
 // character = "World";
 // console.log(character);
 // let secondCharacter;
+// let character = 'Hello';
+// console.log(character);
+// character = "World";
+// let secondCharacter;
+// console.log(secondCharacter);
 let character = 'Hello';
 console.log(character);
 character = "World";
 let secondCharacter;
+secondCharacter = "Test"
 console.log(secondCharacter);
