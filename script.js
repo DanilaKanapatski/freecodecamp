@@ -46,6 +46,8 @@
 // let character = 'Hello';
 // let count = 8;
 // let rows = [];
-let character = 'Hello';
-let count = 8;
+// let character = 'Hello';
+// let count = 8;
+// let rows = ["Naomi", "Quincy", "CamperChan"];
 let rows = ["Naomi", "Quincy", "CamperChan"];
+console.log(rows[0]);
