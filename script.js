@@ -83,6 +83,9 @@
 // for (let i = 0; i < count; i = i + 1) {
 
 // }
+// for (let i = 0; i < count; i = i + 1) {
+//     console.log(i);
+//   }
 for (let i = 0; i < count; i = i + 1) {
-    console.log(i);
+    rows.push(i);
   }
