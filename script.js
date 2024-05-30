@@ -43,6 +43,9 @@
 // console.log(count+1)
 // let count = 8;
 // console.log(count * 2);
+// let character = 'Hello';
+// let count = 8;
+// let rows = [];
 let character = 'Hello';
 let count = 8;
-let rows = [];
+let rows = ["Naomi", "Quincy", "CamperChan"];
