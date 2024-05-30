@@ -117,4 +117,9 @@
 
 // }
 // padRow();
+// const call = padRow();
+function padRow() {
+
+}
 const call = padRow();
+console.log(call);
