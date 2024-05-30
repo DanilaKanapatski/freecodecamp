@@ -54,3 +54,6 @@
 // rows[2] = 10;
 // console.log(rows)
 // rows[rows.length-1] = 10;
+let rows = ["Naomi", "Quincy", "CamperChan"];
+rows.push("freeCodeCamp")
+console.log(rows);
