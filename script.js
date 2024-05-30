@@ -103,7 +103,10 @@
 // for (let i = 0; i < count; i = i + 1) {
 //     rows.push(character);
 //   }
+// for (let i = 0; i < count; i = i + 1) {
+//     rows.push(character.repeat(i));
+//     console.log(rows)
+//   }
 for (let i = 0; i < count; i = i + 1) {
-    rows.push(character.repeat(i));
-    console.log(rows)
+    rows.push(character.repeat(i+1))
   }
