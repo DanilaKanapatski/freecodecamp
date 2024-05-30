@@ -118,8 +118,12 @@
 // }
 // padRow();
 // const call = padRow();
-function padRow() {
+// function padRow() {
 
-}
-const call = padRow();
-console.log(call);
+// }
+// const call = padRow();
+// console.log(call);
+
+function padRow() {
+    return "Hello!"
+  }
