@@ -61,6 +61,9 @@
 // console.log(popped);
 // let pushed = rows.push("freeCodeCamp");
 // console.log(pushed)
-let character = "Hello";
-let count = 8;
-let rows = [];
+// let character = "Hello";
+// let count = 8;
+// let rows = [];
+const character = "Hello";
+const count = 8;
+const rows = [];
