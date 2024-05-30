@@ -100,6 +100,10 @@
 // for (const row of rows) {
 //     result = result + "\n"+ row;
 //   }
+// for (let i = 0; i < count; i = i + 1) {
+//     rows.push(character);
+//   }
 for (let i = 0; i < count; i = i + 1) {
-    rows.push(character);
+    rows.push(character.repeat(i));
+    console.log(rows)
   }
