@@ -124,6 +124,10 @@
 // const call = padRow();
 // console.log(call);
 
-function padRow() {
-    return "Hello!"
+// function padRow() {
+//     return "Hello!"
+//   }
+
+function padRow(name) {
+    return "Hello!";
   }
