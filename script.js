@@ -36,5 +36,8 @@
 // console.log(profession);
 // console.log(age);
 // let character = "Hello";
+// let character = 'Hello';
+// let count = 8;
 let character = 'Hello';
 let count = 8;
+console.log(count+1)
