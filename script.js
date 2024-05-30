@@ -26,6 +26,7 @@
 // let secondCharacter;
 // secondCharacter = "Test"
 // console.log(secondCharacter);
-secondCharacter = "Test";
-secondCharacter = character;
-console.log(character)
+// secondCharacter = "Test";
+// secondCharacter = character;
+// console.log(character)
+let character = 'Hello';
