@@ -164,8 +164,12 @@
 //   const call = padRow();
 //   console.log(call);
 
-function padRow() {
+// function padRow() {
   
+// }
+// const call = padRow();
+// console.log(call);
+
+function padRow() {
+
 }
-const call = padRow();
-console.log(call);
