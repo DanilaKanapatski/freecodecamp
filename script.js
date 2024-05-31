@@ -170,6 +170,10 @@
 // const call = padRow();
 // console.log(call);
 
-function padRow() {
+// function padRow() {
+
+// }
+
+function padRow(rowNumber, rowCount) {
 
 }
