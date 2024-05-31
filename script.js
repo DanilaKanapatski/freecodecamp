@@ -152,7 +152,14 @@
 //     return character + name;
 //   }
 
-function padRow(name) {
+// function padRow(name) {
+//     const test = "Testing";
+//     return test;
+//   }
+
+function padRow() {
     const test = "Testing";
     return test;
   }
+  const call = padRow();
+  console.log(call);
