@@ -136,4 +136,8 @@
 //     return name;
 //   }
 
-const call = padRow("Danila");
+// const call = padRow("Danila");
+
+function padRow(name) {
+    return character + name;
+  }
