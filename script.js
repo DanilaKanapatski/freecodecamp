@@ -147,7 +147,12 @@
 //   return character + name;
 
 // }
+// function padRow(name) {
+//     const test = "Testing";
+//     return character + name;
+//   }
+
 function padRow(name) {
     const test = "Testing";
-    return character + name;
+    return test;
   }
