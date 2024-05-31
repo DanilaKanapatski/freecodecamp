@@ -138,6 +138,12 @@
 
 // const call = padRow("Danila");
 
+// function padRow(name) {
+//     return character + name;
+//   }
+
 function padRow(name) {
-    return character + name;
-  }
+  const test = "Testing"
+  return character + name;
+
+}
