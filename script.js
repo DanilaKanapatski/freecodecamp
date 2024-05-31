@@ -157,9 +157,15 @@
 //     return test;
 //   }
 
+// function padRow() {
+//     const test = "Testing";
+//     return test;
+//   }
+//   const call = padRow();
+//   console.log(call);
+
 function padRow() {
-    const test = "Testing";
-    return test;
-  }
-  const call = padRow();
-  console.log(call);
+  
+}
+const call = padRow();
+console.log(call);
