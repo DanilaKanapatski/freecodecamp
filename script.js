@@ -174,6 +174,10 @@
 
 // }
 
-function padRow(rowNumber, rowCount) {
+// function padRow(rowNumber, rowCount) {
 
-}
+// }
+
+function padRow(rowNumber, rowCount) {
+    return character.repeat(rowNumber)
+  }
