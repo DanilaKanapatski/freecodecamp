@@ -191,6 +191,10 @@
 //     console.log(i)
 //   }
 
+// function padRow(rowNumber, rowCount) {
+//     return " " + character.repeat(rowNumber) + " ";
+//   }
+
 function padRow(rowNumber, rowCount) {
-    return " " + character.repeat(rowNumber) + " ";
+    return " ".repeat(rowCount - rowNumber) + character.repeat(rowNumber) + " ".repeat(rowCount - rowNumber);
   }
