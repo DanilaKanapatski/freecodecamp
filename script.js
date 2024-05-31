@@ -132,6 +132,8 @@
 //     return "Hello!";
 //   }
 
-function padRow(name) {
-    return name;
-  }
+// function padRow(name) {
+//     return name;
+//   }
+
+const call = padRow("Danila");
