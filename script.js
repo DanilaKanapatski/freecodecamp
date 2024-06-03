@@ -270,4 +270,11 @@
 // if (done === count) {
 //   continueLoop = false
 // }
-rows.push(padRow(done,count));
+// rows.push(padRow(done,count));
+while (done !== count) {
+  done++;
+  rows.push(padRow(done, count));
+  if (done === count) {
+    continueLoop = false;
+  } 
+}
