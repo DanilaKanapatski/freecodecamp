@@ -254,6 +254,13 @@
 // while (continueLoop) {
   
 // }
+// while (continueLoop) {
+//   done++
+// }
 while (continueLoop) {
-  done++
+  done++;
+  if (done == count) {
+    
+  }
+
 }
