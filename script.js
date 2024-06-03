@@ -229,6 +229,9 @@
 // if (false) {
 //   console.log("Condition is true");
 // }
-if ("false") {
+// if ("false") {
+//   console.log("Condition is true");
+// }
+if ("") {
   console.log("Condition is true");
 }
