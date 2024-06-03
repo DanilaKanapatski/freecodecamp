@@ -247,5 +247,10 @@
 // } else {
 //   console.log("This is the else block");
 // }
+// let continueLoop = false;
+// let done = 0;
 let continueLoop = false;
 let done = 0;
+while (continueLoop) {
+  
+}
