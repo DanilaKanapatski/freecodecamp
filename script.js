@@ -213,6 +213,10 @@
 // for (let i = 1; i < count; i++) {
 //     rows.push(padRow(i, count));
 //   }
+// for (let i = 1; i <= count; i++) {
+//     rows.push(padRow(i, count));
+//   }
+//did loop
 for (let i = 1; i <= count; i++) {
-    rows.push(padRow(i, count));
-  }
+  rows.push(padRow(i, count));
+}
