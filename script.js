@@ -249,8 +249,11 @@
 // }
 // let continueLoop = false;
 // let done = 0;
-let continueLoop = false;
-let done = 0;
-while (continueLoop) {
+// let continueLoop = false;
+// let done = 0;
+// while (continueLoop) {
   
+// }
+while (continueLoop) {
+  done++
 }
