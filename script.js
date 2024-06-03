@@ -257,10 +257,16 @@
 // while (continueLoop) {
 //   done++
 // }
-while (continueLoop) {
-  done++;
-  if (done == count) {
+// while (continueLoop) {
+//   done++;
+//   if (done == count) {
     
-  }
+//   }
 
+// }
+// if (done === count) {
+
+// }
+if (done === count) {
+  continueLoop = false
 }
