@@ -346,6 +346,7 @@
 // for (let i = 1; i <= count; i++) {
 //   rows.push(padRow(i, count));
 // }
-for (let i = 1; i <= count; i++) {
-  rows.unshift(padRow(i, count));
-}
+// for (let i = 1; i <= count; i++) {
+//   rows.unshift(padRow(i, count));
+// }
+let inverted = true;
