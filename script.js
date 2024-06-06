@@ -343,6 +343,9 @@
 // const unshifted = numbers.unshift(5);
 // console.log(unshifted);
 // console.log(numbers);
+// for (let i = 1; i <= count; i++) {
+//   rows.push(padRow(i, count));
+// }
 for (let i = 1; i <= count; i++) {
-  rows.push(padRow(i, count));
+  rows.unshift(padRow(i, count));
 }
