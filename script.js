@@ -349,4 +349,9 @@
 // for (let i = 1; i <= count; i++) {
 //   rows.unshift(padRow(i, count));
 // }
-let inverted = true;
+// let inverted = true;
+for (let i = 1; i <= count; i++) {
+  if (inverted){
+  rows.unshift(padRow(i, count));
+  }
+}
