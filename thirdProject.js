@@ -31,9 +31,9 @@ const locations = [
     {
         name: "cave",
         "button text": ["Fight slime", "Fight fanged beast", "Go to town square"],
-          "button functions": [fightSlime, fightBeast, goTown],
-          text: "You enter the cave. You see some monsters."
-      }
+        "button functions": [fightSlime, fightBeast, goTown],
+        text: "You enter the cave. You see some monsters."
+    }
 ];
 
 //initialize buttons
@@ -65,7 +65,9 @@ function fightDragon() {
 }
 function buyHealth() {
     gold -= 10;
-  health += 10;
+    health += 10;
+    goldText.innerText = gold;
+    healthText.innerText = health;
 }
 function buyWeapon() {
 
