@@ -20,7 +20,7 @@ const cat = {
     name: "Whiskers",
     "Number of legs": 4
 }
-console.log(cat.name)
+console.log(cat["Number of legs"]);
 //initialize buttons
 button1.onclick = goStore;
 button2.onclick = goCave;
