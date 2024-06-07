@@ -98,9 +98,6 @@ function goCave() {
     update(locations[2]);;
 }
 
-function fightDragon() {
-    console.log("Fighting dragon.");
-}
 function buyHealth() {
     if (gold >= 10) {
         gold -= 10;
@@ -111,6 +108,7 @@ function buyHealth() {
         text.innerText = "You do not have enough gold to buy health."
     }
 }
+
 function buyWeapon() {
     if (currentWeaponIndex < weapons.length - 1) {
         if (gold >= 30) {
@@ -130,6 +128,7 @@ function buyWeapon() {
         button2.onclick = sellWeapon;
     }
 }
+
 function sellWeapon() {
     if (inventory.length > 1) {
         gold += 15;
@@ -141,9 +140,19 @@ function sellWeapon() {
         text.innerText = "Don't sell your only weapon!";
     }
 }
+
 function fightSlime() {
 
 }
+
 function fightBeast() {
 
+}
+
+function fightDragon() {
+    console.log("Fighting dragon.");
+}
+
+function goFight() {
+  
 }
