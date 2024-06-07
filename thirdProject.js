@@ -18,22 +18,22 @@ const monsterHealthText = document.querySelector("#monsterHealth");
 
 const weapons = [
     {
-      name: "stick",
-      power: 5
+        name: "stick",
+        power: 5
     },
     {
-      name: "dagger",
-      power: 30
+        name: "dagger",
+        power: 30
     },
     {
-      name: "claw hammer",
-      power: 50
+        name: "claw hammer",
+        power: 50
     },
     {
-      name: "sword",
-      power: 100
+        name: "sword",
+        power: 100
     },
-  ];
+];
 const locations = [
     {
         name: "town square",
@@ -93,7 +93,7 @@ function buyHealth() {
     }
 }
 function buyWeapon() {
-
+    if(gold >= 30) {}
 }
 function fightSlime() {
 
