@@ -77,7 +77,8 @@ const locations = [
         "button text": ["Attack", "Dodge", "Run"],
         "button functions": [attack, dodge, goTown],
         text: "You are fighting a monster."
-    }
+    },
+    
 ];
 
 //initialize buttons
@@ -193,6 +194,7 @@ function defeatMonster() {
     xp += monsters[fighting].level;
     goldText.innerText = gold;
     xpText.innerText = xp;
+    update(locations[4]);
 }
 function lose() {
 
