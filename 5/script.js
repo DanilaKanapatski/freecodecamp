@@ -45,7 +45,8 @@ function calculateCalories(e) {
     if (isError) {
         return
     }
-    let consumedCalories = breakfastCalories + lunchCalories + dinnerCalories + snacksCalories
+    let consumedCalories = breakfastCalories + lunchCalories + dinnerCalories + snacksCalories;
+    const remainingCalories = budgetCalories - consumedCalories + exerciseCalories
 }
 
 function getCaloriesFromInputs(list) {
