@@ -28,6 +28,10 @@ function addEntry() {
 
 addEntryButton.addEventListener('click', addEntry)
 
+function calculateCalories(e) {
+
+}
+
 function getCaloriesFromInputs(list) {
     let calories = 0
     for (const item of list) {
