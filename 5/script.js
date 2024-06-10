@@ -31,6 +31,7 @@ addEntryButton.addEventListener('click', addEntry)
 function calculateCalories(e) {
     e.preventDefault()
     isError = false
+    let breakfastNumberInputs = document.querySelectorAll("#breakfast input[type=number]")
 }
 
 function getCaloriesFromInputs(list) {
