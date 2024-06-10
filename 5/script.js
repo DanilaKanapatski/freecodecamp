@@ -25,3 +25,5 @@ function addEntry() {
     <input type="number" min = "0" id="${entryDropdown.value}-${entryNumber}-calories" placeholder="Calories" />`;
     targetInputContainer.innerHTML += HTMLString;
 }  
+
+addEntryButton.addEventListener('click', addEntry)
