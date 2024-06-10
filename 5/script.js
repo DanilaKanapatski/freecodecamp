@@ -23,7 +23,7 @@ function addEntry() {
     <input type = "text" placeholder = "Name" id = "${entryDropdown.value}-${entryNumber}-name"></input>
     <label for="${entryDropdown.value}-${entryNumber}-calories">Entry ${entryNumber} Calories</label>
     <input type="number" min = "0" id="${entryDropdown.value}-${entryNumber}-calories" placeholder="Calories" />`;
-    targetInputContainer.insertAdjacentHTML();
+    targetInputContainer.insertAdjacentHTML("beforeend",HTMLString);
 }  
 
 addEntryButton.addEventListener('click', addEntry)
