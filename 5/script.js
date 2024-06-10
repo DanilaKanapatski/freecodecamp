@@ -38,5 +38,6 @@ function getCaloriesFromInputs(list) {
             isError = true;
             return null
         }
+        calories += Number(currVal)
     }
 }
