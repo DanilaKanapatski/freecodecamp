@@ -82,3 +82,5 @@ function clearForm() {
     output.innerText = '';
     output.classList.add('hide')
 }
+
+clearButton.addEventListener('click', clearForm)
