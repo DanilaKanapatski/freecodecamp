@@ -71,4 +71,8 @@ function getCaloriesFromInputs(list) {
     return calories
 }
 
-calorieCounter.addEventListener("submit",calculateCalories)
+calorieCounter.addEventListener("submit", calculateCalories)
+
+function clearForm () {
+  
+}
