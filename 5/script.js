@@ -79,5 +79,6 @@ function clearForm() {
         container.innerHTML = "";
     }
     budgetNumberInput.value = '';
-    output.innerText = ''
+    output.innerText = '';
+    output.classList.add('hide')
 }
