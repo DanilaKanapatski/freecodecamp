@@ -9,6 +9,10 @@ body {
     font-family: sans-serif;
 }
 
+h1, h2 {
+    font-family: impact
+  }
+
 .menu {
     width: 80%;
     background-color: burlywood;
