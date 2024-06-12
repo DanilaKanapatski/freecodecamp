@@ -12,13 +12,13 @@ h1 {
 
 .red {
     background-color: rgb(255, 0, 0);
-  }
-
-.two {
-    background-color: rgb(0, 0, 0);
 }
 
-.three {
+.green {
+    background-color: #00FF00;
+  }
+
+.blue {
     background-color: rgb(0, 0, 0);
 }
 
