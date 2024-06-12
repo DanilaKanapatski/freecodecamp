@@ -9,9 +9,10 @@ body {
     font-family: sans-serif;
 }
 
-h1, h2 {
-    font-family: impact
-  }
+h1,
+h2 {
+    font-family: Impact, serif;
+}
 
 .menu {
     width: 80%;
