@@ -22,3 +22,7 @@ body {
 .price {
     text-align: right;
 }
+
+.item p {
+    display: inline-block
+  }
