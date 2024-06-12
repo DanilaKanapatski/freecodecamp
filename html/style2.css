@@ -49,3 +49,7 @@ h1 {
 h2 {
     font-size: 30px
 }
+
+hr {
+    height: 3px
+  }
