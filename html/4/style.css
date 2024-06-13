@@ -25,3 +25,8 @@ form {
     min-width: 300px;
     width: 60vw
 }
+
+fieldset {
+    padding: 2rem 0;
+    border: none
+}
